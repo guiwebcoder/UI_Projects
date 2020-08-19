@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halo | Change Driver</title>
+    <link rel="stylesheet" type="text/css" href="static/css/ram.css">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap-table.min.css">
+    <link rel="stylesheet" href="static/vendor/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="static/css/common.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/line-icons/line-icons.min.css"/>
+  </head>
+  <body>
+    <div class="screen-wrapper">
+      <div class="sidebar-wrapper" id="sidebar-panel">
+        <div class="brand">
+          <div class="logo">
+            <img src="static/assets/logo.svg" alt="logo" />
+          </div>
+        </div>
+        <p class="sidebar-head divider">Main</p>
+        <ul>
+          <a href="index.html">
+            <li class="sidebar-item"> <i class="fa fa-list-alt icon"></i>Dashboard</li>
+          </a>
+          <a href="order.html">
+            <li class="sidebar-item">
+              <img class="icon" src="static/assets/icons/gift.svg" alt="" />Orders
+            </li>
+          </a>
+          <a href="">
+            <li class="sidebar-item">
+              <img class="icon" src="static/assets/icons/trending.svg" alt="" />Analytics
+            </li>
+          </a>
+          <a href="">
+            <li class="sidebar-item"> <i class="fa fa-puzzle-piece icon"></i>Catalogue</li>
+          </a>
+          <a href="">
+            <li class="sidebar-item"> <i class="fa fa-sitemap icon"></i>Payment</li>
+          </a>
+          <a href="">
+            <li class="sidebar-item"> <i class="fa fa-users icon"></i>Discount</li>
+          </a>
+          <a href="store-keeper.html">
+            <li class="sidebar-item"> <i class="fa fa-question-circle icon"></i>Employees</li>
+          </a>
+          <a href="customers.html">
+            <li class="sidebar-item"> <i class="fa fa-tags icon"></i>Customers</li>
+          </a>
+        </ul>
+        <p class="sidebar-head divider">Sales Channels</p>
+        <ul>
+          <a href="">
+            <li class="sidebar-item"> <i class="fa fa-percent icon"></i>Online Store</li>
+          </a>
+          <a href="/merchant/activity">
+            <li class="sidebar-item">
+              <img class="icon" src="static/assets/icons/mail.svg" alt="" />Marketing
+            </li>
+          </a>
+          <a href="/merchant/setting">
+            <li class="sidebar-item"> <i class="fa fa-cog icon"></i>Configuration</li>
+          </a>
+        </ul>
+        <p class="sidebar-head divider">Configuration</p>
+        <ul>
+          <a href="">
+            <li class="sidebar-item"> <i class="fa fa-percent icon"></i>Project Deatils</li>
+          </a>
+          <a href="/merchant/activity">
+            <li class="sidebar-item"> <i class="fa fa-list-alt icon"></i>Team</li>
+          </a>
+          <a href="/merchant/setting">
+            <li class="sidebar-item">
+              <img class="icon" src="static/assets/icons/support.svg" alt="" />Support
+            </li>
+          </a>
+        </ul>
+      </div>
+      <div class="main-content-wrapper">
+        <nav class="justify-content-md-between">
+          <div class="expanded" id="" onclick="toogleSidebar('show')">
+            <i class="fa fa-bars"></i>
+          </div>
+          <div class="d-none d-sm-block float-left back-btn" id="">
+          </div>
+          <ul class="nav-items">
+            <li class="nav-item">
+              <i class="fa fa-bell icon"></i>
+              <i class="fa fa-circle dot"></i>
+            </li>
+            <li class="nav-item">
+              <p class="user-name">
+                Michael McClellan
+                <i class="fa fa-angle-down"></i>
+              </p>
+              <div class="user-icon">
+                <img src="static/assets/user.png" alt="user profile image" />
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-header">
+          <h2 class="page-header-text">Change Driver</h2>
+          <button class="createBtn" data-toggle="modal" data-target="#document">Change Driver</button>
+        </div>
+        <div class="content-wrapper">
+          <div class="grid_row">
+            <div class="filterRow">
+              <div class="selectBox">
+                <select class="dd" name="service_type">
+                  <option value="">Filters</option>
+                  <option value="">Filters</option>
+                </select>
+              </div>
+              <input type="txt" class="search_input" name="search" placeholder="Search a Customer here">
+              <button class="exportBtn">Export<i class="fa fa-download" aria-hidden="true"></i></button>
+            </div>
+            <div class="tableWrapper">
+              <table class="data-table">
+                <tr>
+                  <th>Customer ID</th>
+                  <th>Name</th>
+                  <th>Address</th>
+                  <th>Phone Number</th>
+                  <th>Change Driver</th>
+                </tr>
+                <tr>
+                  <td>#7771</td>
+                  <td>Ted Braun</td>
+                  <td>709 Norrise Islands, South Sylvia, KY , AE</td>
+                  <td>422-652-89</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#7842</td>
+                  <td>Daisha Donnelly</td>
+                  <td>33714 Heller Gateway, Guillermostad, MA, BY</td>
+                  <td>528-232-674</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#7913</td>
+                  <td>Emerald Smith</td>
+                  <td>15178 Kaley Shore, Gabrielleburgh, Co, PA</td>
+                  <td>1-456-651-97</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#7771</td>
+                  <td>Ted Braun</td>
+                  <td>709 Norrise Islands, South Sylvia, KY , AE</td>
+                  <td>422-652-89</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#7842</td>
+                  <td>Daisha Donnelly</td>
+                  <td>33714 Heller Gateway, Guillermostad, MA, BY</td>
+                  <td>528-232-674</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#7913</td>
+                  <td>Emerald Smith</td>
+                  <td>15178 Kaley Shore, Gabrielleburgh, Co, PA</td>
+                  <td>1-456-651-97</td>
+                  <td><button class="btn orders-btn" data-toggle="modal" data-target="#document">Change Driver</button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="pagination"><a href="#">❮</a><a href="#">❯</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="document" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content document">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Change Driver</h5>
+          </div>
+          <div class="modal-body">
+            <div class="form">
+			<input type="text" name="" placeholder="Driver ID">
+			<input type="text" name="" placeholder="Driver Name (Autofill)">
+			<input type="text" name="" placeholder="License Number (Autofill)">
+			</div>
+          </div>
+          <div class="modal-footer">
+            <div class="btnWrapper">
+              <button type="button" class="btn gray" data-dismiss="modal">Cancel</button>&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn green">Change Driver</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="static/vendor/js/jquery.min.js"></script>
+    <script src="static/vendor/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body{margin:0;padding:0}
+.screen-wrapper .main-content-wrapper .page-header {float:left;width:100%;padding: 1.875rem 0;border-bottom: 2px solid #ecedef;border-top: 2px solid #ecedef;margin:0 0 15px 0}
+.screen-wrapper .main-content-wrapper .page-header.np{padding:0}
+.screen-wrapper .main-content-wrapper .page-header h2{float:left;}
+.page-header-text span{font-size:22px;color:#333333;font-weight: 400;}
+.page-header-text span a{color:#333333;text-decoration:none;}
+.page-sub-header{float:left;width:100%;padding: 10px; background-color: white;border-radius: 5px 5px 0 0;border-bottom: 1px solid #ddd;}
+.page-sub-header h3{float:left;margin:0;padding:0; font-size:18px; color:#2f2f2f}
+.page-sub-header h3 span{font-size:12px;margin:0 0 0 20px}
+.page-sub-header .delete_btn{float: right;font-size: 12px;color: #4a4a4a;margin: 0;padding: 5px 15px;border: none;background-color: #e1e2e6;border-radius: 15px;}
+.page-sub-header .delete_btn:hover{background-color: #bebfbf;}
+.map-wrapper{float:left;width:100%;margin:0 0 15px 0;border-radius:10px;}
+.map-wrapper iframe{width:100%; height:250px;border-radius:10px;}
+.data-table{width: 100%;margin: 0 0 50px 0; border-collapse: collapse; border-collapse: collapse;background-color: #fff;}
+.data-table tr:hover{background-color:none}
+.data-table td:hover{background-color:none}
+.data-table th, .data-table td{text-align: center;}
+.data-table th{color: #54617A;text-transform: uppercase;opacity: 0.5; font-size: 11px;padding: 8px;border-bottom: 1px solid #ddd;}
+.data-table td {font-size: 14px;padding: 8px;text-align: center;border-bottom: 1px solid #ddd;}
+.data-table td .ml{margin:0 0 0 10px}
+.data-table td .generate-btn{color:#fff;border-radius: 15px;background-color:#3cd17f;border:none;margin:0 0 0 10px;}
+.data-table td .generate-btn:hover{background-color: #1ea65b;}
+.data-table .taright{text-align: right;}
+.badge-danger{float: left;margin:8px 10px 0 0;background-color: #d92550;width:7px;height:7px;border-radius: 30px;}
+.no-border{border:none!important}
+.selectBox{float:left;width:250px; margin:0 0 0 20px}
+.selectBox select{width:100%;padding: 10px 30px 10px 15px;background-color: #fff !important;border: 1px solid #ced4da;font-size: 14px;color: #9dafbd;border-radius: 5px;}
+.selectBox select.dd{-webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer;background:url(../images/select-arr.png?v=0.1); background-repeat:no-repeat;background-position:95% 18px; float:left;}
+.date_selectBox{float:right}
+.date_selectBox select{width:100%;padding: 10px 30px 10px 15px;background-color: #fff !important;border: 1px solid #ced4da;font-size: 14px;color: #505868;border-radius: 5px;}
+.date_selectBox select.dd{-webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer;background:url(../images/select-arr-date.png?v=0.1); background-repeat:no-repeat;background-position:88% 12px; float:left;}
+.date_selectBox .or{float:left;width:46px;height:11px; margin:8px 10px;background-image: url(../images/or_bg.png);}
+.page-row{float:left;width:100%}
+.slect_date{width: 95px!important;font-size: 11px!important;border-radius: 20px!important;padding: 5px 10px!important;float: left;height: auto!important;border: none!important;}
+.db_info_row{float:left;width:100%; min-height:250px;margin:0 0 20px 0}
+.db_info_row .dbColA{float:left;width:44%; margin:0 2% 0 0;}
+.db_info_row .dbColA .row{float:left;width:100%;margin:0 0 15px 0}
+.db_info_row .dbColA .row .col{float:left;width:30%;margin:0 5% 0 0; padding: 15px;background-color:#fff;border-radius: 8px;}
+.db_info_row .dbColA .row .col:last-child { margin: 0; }
+.db_info_row .dbColA .row .col .title{float:left;width:100%;margin:0 0 15px 0; padding: 0;color: #62636a;font-size: 14px;border: none;}
+.db_info_row .dbColA .row .col .tr{float:left;width:100%;margin:0 0 10px 0;}
+.db_info_row .dbColA .row .col .tr font{float:left;color: #273145;font-size: 22px;font-weight: 600;}
+.db_info_row .dbColA .row .col .tr span{float:right;color: #53cb85;font-size: 12px;line-height:32px}
+.db_info_row .dbColA .row .col .info{float:left;width:100%;float:right;color: #c2c7cf;font-size: 10px;text-align:left}
+.db_info_row .dbColA .row .col:last-child span{ color:#ff0000 }
+.db_info_row .dbColA .alert_tr{float:left;width:100%;margin:0 5% 0 0; padding: 0;background-color:#fff;border-radius: 8px;}
+.db_info_row .dbColA .title{float:left;width:100%; margin:0;padding:15px; border-bottom: 1px solid #eff3f9;color:#333;font-size: 16px;}
+.db_info_row .dbColA .title span{float:right;color:#d9471a;font-size:18px;}
+.db_info_row .dbColA .alert_tr .page_row{float:left;width:100%; margin:0;padding:15px;font-size:12px;color:#616d84}
+.db_info_row .dbColA .alert_tr .left{float:left;padding: 0;}
+.db_info_row .dbColA .alert_tr .left span{padding: 0 0 0 15px;}
+.db_info_row .dbColA .alert_tr .right{float:right;padding: 0;}
+.db_info_row .dbColA .alert_tr .right span{padding: 0 15px 0 0 ;}
+.db_info_row .dbColA .alert_tr .left i, .db_info_row .dbColA .alert_tr .right i{font-size:16px}
+.db_info_row .dbColA .alert_tr .right a{color:#5794cc;text-decoration:none;margin: 0 0 0 20px;}
+.db_info_row .dbColB{float:left;width:34%; margin:0 2% 0 0;background-color:#fff;height: 245px; border-radius: 8px;}
+.db_info_row .dbColB .title{float:left;width:100%; margin:0;padding:15px; border-bottom: 1px solid #eff3f9;color:#333;font-size: 18px;}
+.db_info_row .dbColB .title span{float:right;color:#2474bc;font-size:14px;}
+.recent-activity{width: 100%;margin: 0 0 50px 0; border-collapse: collapse; border-collapse: collapse;background-color: #fff;}
+.recent-activity thead{background-color: #f9fafc;border-top:1px solid #eff3f9;border-bottom:1px solid #eff3f9}
+.recent-activity th, .recent-activity td{text-align: center;}
+.recent-activity th{color: #a6aebb;text-transform: uppercase;opacity: 0.5; font-size: 11px;padding: 8px;}
+.recent-activity td {color: #54617a;font-size: 14px;padding: 8px;text-align: center;border-bottom: 1px solid #ddd;}
+.db_info_row .dbColC{float:right;width:18%; margin:0;padding:0;background-color:#fff;height: 245px; border-radius: 8px;}
+.db_info_row .dbColC .title{float:left;width:100%; margin:0;padding:15px; border-bottom: 1px solid #eff3f9;color:#333;font-size: 18px;}
+.db_info_row .dbColC .page_row{float:left;width:100%; margin:0;padding:15px;}
+.db_info_row .dbColC .page_row .tr{float:left;width:100%; margin:0 0 15px 0;padding:0;font-size:14px;color:#54617a}
+.db_info_row .dbColC .page_row .tr span{float:left;width:100%;margin: 5px 0 0 0;font-size:11px;color:#a9b9c5}
+.pageRow{float: left;width: 100%;margin: 0 0 20px 0;padding: 0;background-color: #fff;border-radius: 8px;}
+.pageRow .pageTr{float: left;width: 100%;margin: 0;padding: 15px;border-bottom: 1px solid #eff3f9;color: #333;font-size: 20px;}
+.pageRow .pageTr span{float:right;color: #c8c8c8;font-size: 12px;}
+.pageRow .pageTr span i{font-size:16px}
+.pageRow .skform{float: left;width: 100%;margin: 0;padding: 15px;border-bottom: 1px solid #eff3f9;}
+.pageRow .StoreRow{float: left;width: 100%;margin: 0;padding: 15px;display: flex;
+flex-wrap: wrap;}
+.pageRow .StoreCol{float: left;width: 30%; margin:0 5% 20px 0;padding:10px;border:1px solid #cdcdcd;border-radius:5px;}
+.pageRow .StoreCol figure{float:left;width:20%;margin:3px 2% 0 0}
+.pageRow .StoreCol .info{float:left;width:78%;margin:0}
+.pageRow .StoreCol .info .title{float:left;width:100%;margin:0 0 3px 0;font-size:14px;color:#333333}
+.pageRow .StoreCol .info p{float:left;width:100%;margin:0;font-size:12px;color:#b7b7b7}
+.input_group {float:left;width:88%;position: relative;display: table; border-collapse: separate;}
+.input_group  input{float:left;width:96%;margin: 0 0 0 -4px;padding: 4px 10px;background-color: #fff;border: 1px solid #adadad;border-radius: 5px;font-size:14px;color:#adadad}
+.input_group  input:last-child{border-top-left-radius: 0;    border-bottom-left-radius: 0;}
+.input-group-addon:first-child {border-right: 0;}
+.input-group-addon {float:left;padding: 8px 12px;font-size: 12px;font-weight: 400;line-height: 1;color: #555;text-align: center;background-color: #fff;border: 1px solid #adadad;border-radius: 5px;}
+.skform .selectBox{float:left;width:118px; margin:0 0 0 5px}
+.skform .selectBox select{width:100%;padding: 4px 30px 4px 15px;background-color: #fff !important;border: 1px solid #ced4da;font-size: 14px;color: #b4b4b4;border-radius: 5px;}
+.skform  .selectBox select.dd{-webkit-appearance: none;-moz-appearance: none;appearance: none;cursor:pointer;background:url(../images/select-arr.png?v=0.1); background-repeat:no-repeat;background-position:95% 13px; float:left;}
+.skform .actionBtnRow{float:left;width:100%;margin:10px 0 0 0}
+.skform .actionBtnRow .generate-btn{float:right;color:#fff;border-radius: 15px;background-color:#3cd17f;border:none;margin:0 0 0 10px;}
+.skform .actionBtnRow .generate-btn:hover{background-color: #1ea65b;}
+.addBtn{float: left;color: #cbcbcb;background-color: #fff;border: 1px solid #cbcbcb;border-radius: 50%;font-size: 12px;font-weight: 200;width: 30px;height: 30px;}
+.pageRow .StoreCol:nth-child(3){margin-right:0}
+.pageRow .StoreCol:nth-child(6){margin-right:0}
+.pageRow .StoreCol:nth-child(9){margin-right:0}
+.pageRow .StoreCol:nth-child(12){margin-right:0}
+.pageNav{float:left;width:100%;margin:0 0 10px 0;padding:10px;border-top:1px solid #eeeef0;border-bottom:1px solid #eeeef0;}
+.pageNav ul{float:left;width:100%;margin:0;padding:0}
+.pageNav ul li{float:left;margin:0 40px 0 0;padding:0;font-size: 12px; list-style:none}
+.pageNav ul li a{font-size: 12px; color:#292929}

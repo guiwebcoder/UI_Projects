@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halo | Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="static/css/ram.css"><link rel="stylesheet" type="text/css" href="static/css/bootstrap-table.min.css"><link rel="stylesheet" href="static/vendor/css/bootstrap.min.css" /><link rel="stylesheet" href="static/css/common.css" /><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    <div class="screen-wrapper">
+      <div class="sidebar-wrapper" id="sidebar-panel">
+  <div class="brand">
+    <div class="logo">
+      <img src="static/assets/logo.svg" alt="logo" />
+    </div>
+  </div>
+  <p class="sidebar-head divider">Main</p>
+  <ul>
+    <a href="index.html">
+      <li class="sidebar-item"> <i class="fa fa-list-alt icon"></i>Dashboard</li>
+    </a>
+    <a href="order.html">
+      <li class="sidebar-item">
+        <img class="icon" src="static/assets/icons/gift.svg" alt="" />Orders
+      </li>
+    </a>
+    <a href="">
+      <li class="sidebar-item">
+        <img class="icon" src="static/assets/icons/trending.svg" alt="" />Analytics
+      </li>
+    </a>
+    <a href="">
+      <li class="sidebar-item"> <i class="fa fa-puzzle-piece icon"></i>Catalogue</li>
+    </a>
+    <a href="">
+      <li class="sidebar-item"> <i class="fa fa-sitemap icon"></i>Payment</li>
+    </a>
+    <a href="">
+      <li class="sidebar-item"> <i class="fa fa-users icon"></i>Discount</li>
+    </a>
+    <a href="store-keeper.html">
+      <li class="sidebar-item"> <i class="fa fa-question-circle icon"></i>Employees</li>
+    </a>
+    <a href="customers.html">
+      <li class="sidebar-item"> <i class="fa fa-tags icon"></i>Customers</li>
+    </a>
+  </ul>
+  <p class="sidebar-head divider">Sales Channels</p>
+  <ul>
+    <a href="">
+      <li class="sidebar-item"> <i class="fa fa-percent icon"></i>Online Store</li>
+    </a>
+    <a href="/merchant/activity">
+      <li class="sidebar-item">
+        <img class="icon" src="static/assets/icons/mail.svg" alt="" />Marketing
+      </li>
+    </a>
+    <a href="/merchant/setting">
+      <li class="sidebar-item"> <i class="fa fa-cog icon"></i>Configuration</li>
+    </a>
+  </ul>
+  <p class="sidebar-head divider">Configuration</p>
+  <ul>
+    <a href="">
+      <li class="sidebar-item"> <i class="fa fa-percent icon"></i>Project Deatils</li>
+    </a>
+    <a href="/merchant/activity">
+      <li class="sidebar-item"> <i class="fa fa-list-alt icon"></i>Team</li>
+    </a>
+    <a href="/merchant/setting">
+      <li class="sidebar-item">
+        <img class="icon" src="static/assets/icons/support.svg" alt="" />Support
+      </li>
+    </a>
+  </ul>
+</div>
+      <div class="main-content-wrapper">
+        <nav class="justify-content-md-between">
+          <div class="d-none d-sm-block float-left back-btn" id="">
+          </div>
+          <ul class="nav-items">
+            <li class="nav-item">
+              <i class="fa fa-bell icon"></i>
+              <i class="fa fa-circle dot"></i>
+            </li>
+            <li class="nav-item">
+              <p class="user-name">
+                Michael McClellan
+                <i class="fa fa-angle-down"></i>
+              </p>
+              <div class="user-icon">
+                <img src="static/assets/user.png" alt="user profile image" />
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-header no-border np">
+          <h2 class="page-header-text"><span>Dashboard</span></h2>
+          <div class="selectBox">
+            <select class="dd" name="service_type">
+              <option value="">Select Warehouse</option>
+              <option value="">Select Warehouse</option>
+              <option value="">Select Warehouse</option>
+              <option value="">Select Warehouse</option>
+            </select>
+          </div>
+          <div class="page-row">
+            <div class="date_selectBox">
+              <select class="dd slect_date">
+                <option value="">16/08/2020</option>
+                <option value="">16/08/2020</option>
+              </select>
+              <div class="or"></div>
+              <select class="dd slect_date">
+                <option value="" >16/08/2020</option>
+                <option value="">16/08/2020</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="db_info_row">
+          <div class="dbColA">
+            <div class="row">
+              <div class="col">
+                <div class="title">Active Orders</div>
+                <div class="tr"><font>320</font><span><i class="fa fa-arrow-up" aria-hidden="true"></i> 5.25%</span></div>
+                <div class="info">Increased since yesterday</div>
+              </div>
+              <div class="col">
+                <div class="title">Active Bundles</div>
+                <div class="tr"><font>17</font><span><i class="fa fa-arrow-up" aria-hidden="true"></i> 5.25%</span></div>
+                <div class="info">Increased since yesterday</div>
+              </div>
+              <div class="col">
+                <div class="title">Unfulfilled Orders</div>
+                <div class="tr"><font>20</font><span><i class="fa fa-arrow-up" aria-hidden="true"></i> 5.25%</span></div>
+                <div class="info">Increased since yesterday</div>
+              </div>
+            </div>
+            <div class="alert_tr">
+              <div class="title">Low Stock Alert (4) <span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span></div>
+              <div class="page_row">
+                <div class="left"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>#5463 Item Name Left 12</span></div>
+                <div class="right"><span>Ignore <a href="#">Take Action</a></span> <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="dbColB">
+            <div class="title">Recent Activity <span>Export <i class="fa fa-arrow-down" aria-hidden="true"></i></span></div>
+            <table class="recent-activity">
+              <thead>
+                <tr>
+                  <th>ORDER ID</th>
+                  <th>DATE TIME</th>
+                  <th>PAYMENT</th>
+                  <th>PRIORTY</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center">#5442</td>
+                  <td class="text-center">07 April 2020</td>
+                  <td>$129.99</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td class="text-center">#5442</td>
+                  <td class="text-center">07 April 2020</td>
+                  <td>$129.99</td>
+                  <td>High</td>
+                </tr>
+                <tr>
+                  <td class="text-center">#5442</td>
+                  <td class="text-center">07 April 2020</td>
+                  <td>$129.99</td>
+                  <td>High</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="dbColC">
+            <div class="title">Updates</div>
+            <div class="page_row">
+              <div class="tr">Order #1094 was placed <span>12 hours ago</span></div>
+              <div class="tr">Order #1092 was placed <span>14 hours ago</span></div>
+              <div class="tr">Order #1090 was placed <span>16 hours ago</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrapper"><iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3506.0656882133844!2d77.24862146468581!3d28.507671332467222!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d28.5071975!2d77.2520837!4m5!1s0x390ce10dae65e38b%3A0xdd958c79d1809753!2sG10%2C%2068%2C%20Ratiya%20Marg%2C%20Block%20D%2C%20Sangam%20Vihar%2C%20New%20Delhi%2C%20Delhi%20110044!3m2!1d28.508218!2d77.24954029999999!5e0!3m2!1sen!2sin!4v1597552660956!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+      </div>
+    </div>
+    <script src="static/vendor/js/jquery.min.js"></script>
+  </body>
+</html>
